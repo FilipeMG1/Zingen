@@ -57,10 +57,8 @@
   &::after {
     content: attr(aria-label);
     background: var(--btn-bg-color);
-
-    -webkit-background-clip: text;
-    background-clip: text;
-
+    -webkit-background-clip: text; /*TRABALHAM JUNTOS*/
+    background-clip: text; /*TRABALHAM JUNTOS*/
     color: transparent;
     position: relative;
     z-index: 1;
