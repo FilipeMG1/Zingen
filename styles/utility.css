@@ -25,7 +25,7 @@
   display: none;
 }
 
-.even-column { /*Divide as colunas automaticamente*/
+.even-columns { /*Divide as colunas automaticamente*/
   display: grid;
   gap: 1rem;
 }
@@ -59,7 +59,7 @@
     display: initial; /*INITIAL pega o display inicial da tag (EX: BLOCK para DIV | INLINE para span)*/
   }
 
-  .even-column { /*Divide as colunas automaticamente (AQUI parece com Flex)*/
+  .even-columns { /*Divide as colunas automaticamente (AQUI parece com Flex)*/
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
   }
